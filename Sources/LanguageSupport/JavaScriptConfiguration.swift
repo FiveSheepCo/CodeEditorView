@@ -81,7 +81,7 @@ extension LanguageConfiguration {
     return LanguageConfiguration(name: "JavaScript",
                                  supportsSquareBrackets: true,
                                  supportsCurlyBrackets: true,
-                                 stringRegex: /\"(?:\\\"|[^\"\n])*\"|'(?:\\'|[^'\n])*'|`(?:\\`|[^`])*`/,
+                                 stringRegex: /\"(?:\\\"|[^\"\n])*+\"|'(?:\\'|[^'\n])*+'|`(?:\\`|[^`])*+`/,
                                  characterRegex: nil,
                                  numberRegex: numberRegex,
                                  singleLineComment: "//",
